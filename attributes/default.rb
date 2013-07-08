@@ -1,0 +1,14 @@
+#
+# Cookbook Name:: fail2ban-security
+# Attributes:: fail2ban
+#
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+
+node.override['fail2ban']['email'] = 'vberez@vbnere.com'
