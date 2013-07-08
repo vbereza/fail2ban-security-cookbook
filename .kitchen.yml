@@ -23,5 +23,5 @@ platforms:
 
 suites:
 - name: default
-  run_list: ["recipe[fail2ban-security]"]
+  run_list: ["recipe[fail2ban-security::default]"]
   attributes: {}
